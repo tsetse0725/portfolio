@@ -1,0 +1,91 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.4.0",
+  "pathMappings": {
+    "@/*": [
+      "./src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "1867017717006394117"
+      },
+      {
+        "file": "README.md",
+        "hash": "10766794746169900117"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "12899113689863397878"
+      },
+      {
+        "file": "next.config.ts",
+        "hash": "17157214668998829023"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "729024072503589334"
+      },
+      {
+        "file": "package.json",
+        "hash": "16773211083390836980"
+      },
+      {
+        "file": "postcss.config.mjs",
+        "hash": "535692822154927684"
+      },
+      {
+        "file": "public/file.svg",
+        "hash": "15617830351863523835"
+      },
+      {
+        "file": "public/globe.svg",
+        "hash": "9134466864871335697"
+      },
+      {
+        "file": "public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "public/og-image.png",
+        "hash": "17175113322697939639"
+      },
+      {
+        "file": "public/vercel.svg",
+        "hash": "3007623926711696394"
+      },
+      {
+        "file": "public/window.svg",
+        "hash": "16677869292061012332"
+      },
+      {
+        "file": "src/app/favicon.ico",
+        "hash": "9157999678830540297"
+      },
+      {
+        "file": "src/app/globals.css",
+        "hash": "13803416617225302536"
+      },
+      {
+        "file": "src/app/layout.tsx",
+        "hash": "7815449786293795165"
+      },
+      {
+        "file": "src/app/page.tsx",
+        "hash": "1596305417865936520"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "4965826641429490352"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "5458382330138972926"
+      }
+    ]
+  }
+}

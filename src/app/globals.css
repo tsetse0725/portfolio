@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
+/* 🎬 Киноны мэт гүн харанхуй фон */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070708;
+  --foreground: #f3f3f3;
 }
 
 @theme inline {
@@ -12,15 +13,45 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* 🌙 Dark mode-д нэг өнгө хангалттай */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #070708;
     --foreground: #ededed;
   }
 }
 
+/* 🌟 Үндсэн биеийн загвар */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* ✨ Текст highlight effect */
+::selection {
+  background: rgba(16, 185, 129, 0.25);
+}
+
+/* 🌀 Зөөлөн scroll animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🔇 Scrollbar-г minimal болгоё */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0b;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.4);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 100, 100, 0.6);
 }
