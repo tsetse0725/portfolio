@@ -47,6 +47,22 @@ export default function ProjectsSection() {
       github: "https://github.com/tsetse0725/form",
       live: "https://form-dusky-psi.vercel.app/",
     },
+{
+  title: "Tic-Tac-Toe",
+  stack: ["Next.js", "React", "TypeScript", "Tailwind", "Framer Motion", "Playwright", "Vitest"],
+  description:
+    "PvP & Bot (minimax) горимтой, sound/haptics, accessibility, undo history, гоёмсог анимацтай. Vitest + Playwright тест, GitHub Actions CI.",
+  github: "https://github.com/tsetse0725/tic-tac-toe",
+  live: "https://tic-tac-toe-teal-delta-55.vercel.app/",
+  highlights: [
+    "AI: Minimax + move ordering",
+    "Settings: sound/volume, bot delay, haptics",
+    "A11y: keyboard навигац, aria roles",
+    "CI: Vitest + Playwright (GitHub Actions)"
+  ],
+  roles: ["Frontend", "Testing/CI"],
+  year: 2025
+}
   ];
 
   return (
