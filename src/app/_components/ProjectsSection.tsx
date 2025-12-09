@@ -9,7 +9,7 @@ export default function ProjectsSection() {
       description:
         "Auth (JWT), ангилал/захиалга, зураг upload, admin dashboard.",
       github: "https://github.com/tsetse0725/food-delivery",
-      live: "https://food-delivery-pied-eta.vercel.app/",
+      live: "https://food-delivery-zeta-jet.vercel.app/",
     },
     {
       title: "Buy Me a Coffee",
