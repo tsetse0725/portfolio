@@ -62,6 +62,22 @@ export default function ProjectsSection() {
   ],
   roles: ["Frontend", "Testing/CI"],
   year: 2025
+},
+{
+  title: "Music Player",
+  stack: ["Next.js", "React", "TypeScript", "Tailwind", "Web Audio API"],
+  description:
+    "Audio playlist player with seek bar, shuffle/repeat, volume & mute controls, and a 3-band equalizer (bass/mid/treble). Built with Next.js App Router and clean component architecture.",
+  github: "https://github.com/tsetse0725/music-player",
+  live: "https://music-player-gules-five.vercel.app/",
+  highlights: [
+    "Playback: play/pause, seek, next/prev, playlist selection",
+    "Modes: shuffle + repeat (off/all/one)",
+    "Sound: volume slider + mute toggle",
+    "EQ: 3-band equalizer using Web Audio API (BiquadFilterNode + GainNode)"
+  ],
+  roles: ["Frontend"],
+  year: 2025
 }
   ];
 
